@@ -26,7 +26,7 @@ pipeline {
        stage('Download') {
            steps {
               // Download code from a GitHub repository
-              git 'https://github.com/jonathonamedlock/reimbursement-personal.git'
+              git 'https://github.com/jonathonamedlock/reimbursement-api'
            }
         }
 
